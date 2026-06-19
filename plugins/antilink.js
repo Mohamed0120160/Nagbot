@@ -235,8 +235,8 @@ handler.all = async function (m, { chatUpdate }) {
 }
 
 // ============================================================
-handler.help    = ['antilink <on/off>', 'antilinkmode <delete/warn/kick>']
-handler.tags    = ['group', 'security']
+handler.help    = ['antilink']
+handler.tags    = ['group']
 handler.command = ['antilink', 'antilinkmode']
 
 handler.group    = false
