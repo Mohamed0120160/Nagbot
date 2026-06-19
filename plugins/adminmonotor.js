@@ -326,8 +326,8 @@ handler.all = async function (m, { chatUpdate }) {
 }
 
 // ============================================================
-handler.help    = ['monitor', 'antidelete <on/off>', 'antiviewonce <on/off>']
-handler.tags    = ['group', 'security']
+handler.help    = ['monitor']
+handler.tags    = ['group']
 handler.command = ['monitor', 'antidelete', 'antiviewonce']
 
 handler.group    = false

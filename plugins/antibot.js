@@ -50,7 +50,7 @@ let handler = async (m, { conn, usedPrefix, command, text, isAdmin, isOwner }) =
   }
 }
 
-handler.help    = ['antibot <on/off>']
+handler.help    = ['antibot']
 handler.tags    = ['group']
 handler.command = ['antibot']
 handler.group   = true

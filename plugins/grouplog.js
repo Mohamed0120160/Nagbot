@@ -111,7 +111,7 @@ let handler = async (m, { conn, usedPrefix, command, args, text }) => {
 
 // ============================================================
 handler.help    = ['setlog', 'showlog', 'removelog']
-handler.tags    = ['group', 'security']
+handler.tags    = ['group']
 handler.command = [
   'setlog', 'setloggroup',
   'showlog', 'showloggroup', 'loginfo',

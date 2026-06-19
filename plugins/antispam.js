@@ -329,8 +329,8 @@ handler.all = async function (m, { chatUpdate }) {
 }
 
 // ============================================================
-handler.help    = ['antispam <on/off>', 'spamlimit <عدد>', 'spaminterval <ثواني>', 'spamaction <warn/delete/mute/kick>']
-handler.tags    = ['group', 'security']
+handler.help    = ['antispam']
+handler.tags    = ['group']
 handler.command = ['antispam', 'spamlimit', 'spaminterval', 'spamaction']
 
 handler.group    = false

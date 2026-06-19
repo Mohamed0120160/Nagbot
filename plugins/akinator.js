@@ -270,7 +270,7 @@ async function sendQuestion(conn, jid, question, m, usedPrefix, command) {
     }
 }
 
-handler.help = ['مارد', 'مارد <نعم/لا/لا أعرف/ربما/ربما لا/رجوع/حذف>'];
+handler.help = ['مارد'];
 handler.tags = ['game'];
 handler.command = ['مارد', 'akinator', 'المارد'];
 

@@ -576,19 +576,9 @@ handler.all = async function (m, { chatUpdate }) {
 
 // ============================================================
 handler.help    = [
-  'antibadword <on/off>',
-  'antibadwordmode <delete/warn/kick/warnkick>',
-  'antibadwordmaxwarn <رقم>',
-  'antibadwordmatch <full/contains>',
-  'antibadwordignoreadmins <on/off>',
-  'addbadword <كلمة>',
-  'delbadword <كلمة>',
-  'badwords',
-  'clearbadwords',
-  'bwarn [منشن]',
-  'resetbwarn [منشن]',
+  'antibadword'
 ]
-handler.tags    = ['group', 'security']
+handler.tags    = ['group']
 handler.command = [
   'antibadword',
   'antibadwordmode',

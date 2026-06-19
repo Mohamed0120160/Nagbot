@@ -113,4 +113,4 @@ function ucapan() {
   if (h < 15) return 'صباح الخير'
   if (h < 18) return 'مساء الخير'
   return '🌙'
-          }
+}

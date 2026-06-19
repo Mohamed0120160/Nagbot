@@ -218,7 +218,7 @@ handler.participantsUpdate = async function ({ id, participants, action, groupMe
 }
 
 // ============================================================
-handler.help = ['welcome <on/off/msg/bg/log>', 'bye <on/off/msg/bg/log>']
+handler.help = ['welcome', 'bye']
 handler.tags = ['group']
 handler.command = ['welcome', 'bye']
 
