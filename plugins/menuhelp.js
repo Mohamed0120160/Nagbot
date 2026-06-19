@@ -60,7 +60,7 @@ ${div}
 ${div}
 ${lines.join('\n')}
 ${div}
-💡 مثال: ${_p}${firstcmd}`
+💡 مثال: ${_p}${firstCmd}`
 
     await conn.sendMessage(
       m.chat,
